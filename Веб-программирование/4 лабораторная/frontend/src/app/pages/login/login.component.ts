@@ -17,7 +17,7 @@ import { Message } from 'primeng/api';
     <div class="login-page">
       <div class="header">
         <div class="student-info">
-          <div class="student-name">Шмидько Елизавета Львовна</div>
+          <div class="student-name">Елизавета Львовна</div>
           <div class="student-group">Группа P3232 • Вариант 475247</div>
         </div>
       </div>
@@ -133,3 +133,4 @@ export class LoginComponent {
     });
   }
 }
+
