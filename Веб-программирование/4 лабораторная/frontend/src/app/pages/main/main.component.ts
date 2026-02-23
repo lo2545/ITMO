@@ -25,7 +25,7 @@ import { ToastModule } from 'primeng/toast';
     <div class="main-header">
       <div class="header-content">
         <div class="header-left">
-          <span class="title">Шмидько Елизавета • Вариант 475247</span>
+          <span class="title">Елизавета • Вариант 475247</span>
           <span class="separator">|</span>
           <span class="username">Пользователь: {{ (auth.user$ | async)?.username }}</span>
         </div>
@@ -241,3 +241,4 @@ export class MainComponent implements OnInit {
     this.auth.logout();
   }
 }
+
