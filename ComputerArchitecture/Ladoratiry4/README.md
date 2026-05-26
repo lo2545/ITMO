@@ -6,7 +6,7 @@
 
 git init
 git add .
-git commit -m "-init"
+git commit -m "-"
 git branch -M main
 git remote add origin https://github.com/lo2545/ITMO.git
 git push origin main --force
@@ -15,7 +15,6 @@ git filter-branch --force --index-filter "git rm -r --cached --ignore-unmatch .i
 git reflog expire --expire=now --all
 git reflog expire --expire=now --all
 git push origin main --force
-
 
 ---
 
