@@ -11,7 +11,6 @@ DATA_RSTACK_TOP = 0x02FF
 VECTOR_SIZE = 4
 WORD_SIZE = 32
 
-
 class Opcode(IntEnum):
     ADD = 0
     SUB = 1

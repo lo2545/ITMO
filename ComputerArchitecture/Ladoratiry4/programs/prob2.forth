@@ -1,3 +1,27 @@
+interrupt: handle_input
+
+variable limit
+variable input_done
+
+: handle_input
+    key
+    dup 10 =
+    if
+        drop
+        1 input_done !
+    else
+        dup 0 =
+        if
+            drop
+            1 input_done !
+        else
+            48 -
+            limit @ 10 * + limit !
+        then
+    then
+    iret
+;
+
 variable fib_a
 variable fib_b
 variable fib_tmp
@@ -21,11 +45,16 @@ variable fib_sum
 ;
 
 : done?
-    fib_b @ 4000000 <
+    fib_b @ limit @ <
     not
 ;
 
 : main
+    0 limit !
+    0 input_done !
+    begin
+        input_done @
+    until
     1 fib_a !
     2 fib_b !
     2 fib_sum !

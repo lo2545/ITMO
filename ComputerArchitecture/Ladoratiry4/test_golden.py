@@ -13,10 +13,9 @@ def translate_and_run(forth_file: str, input_file: str | None = None) -> str:
     )
     assert result.returncode == 0, f"translator failed: {result.stderr}"
 
+    args = [PYTHON, "machine.py", bin_file]
     if input_file:
-        args = [PYTHON, "machine.py", bin_file, input_file]
-    else:
-        args = [PYTHON, "machine.py", bin_file]
+        args.append(input_file)
     result = subprocess.run(args, capture_output=True, text=True)
     assert result.returncode == 0, f"machine failed: {result.stderr}"
     return result.stdout
@@ -25,6 +24,14 @@ def translate_and_run(forth_file: str, input_file: str | None = None) -> str:
 def test_hello() -> None:
     output = translate_and_run("programs/hello.forth")
     assert output == "Hello, World!"
+
+
+def test_harvard_memory() -> None:
+    dbg = open("golden_tests/hello/hello.dbg").read()
+    assert "=== INSTRUCTION MEMORY ===" in dbg
+    assert "=== DATA MEMORY ===" in dbg
+    instr_lines = [l for l in dbg.splitlines() if l and not l.startswith("=") and "INSTRUCTION" not in l and "DATA" not in l and dbg.find("DATA") > dbg.find(l)]
+    assert len(instr_lines) > 0
 
 
 def test_cat() -> None:
@@ -49,7 +56,7 @@ def test_sort() -> None:
 
 
 def test_prob2() -> None:
-    output = translate_and_run("programs/prob2.forth")
+    output = translate_and_run("programs/prob2.forth", "golden_tests/prob2/input.txt")
     assert output.strip() == "4613732"
 
 
