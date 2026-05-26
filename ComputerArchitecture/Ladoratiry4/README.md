@@ -3,7 +3,6 @@
 **Выполнила:** Шмидько Елизавета, группа P3232
 
 **Вариант:** `forth | risc | harv | hw | tick | binary | trap | mem | pstr | prob2 | vector`
- 
 
 git init
 git add .
@@ -16,6 +15,7 @@ git filter-branch --force --index-filter "git rm -r --cached --ignore-unmatch .i
 git reflog expire --expire=now --all
 git reflog expire --expire=now --all
 git push origin main --force
+
 
 ---
 
