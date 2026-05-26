@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.log
+.idea
 out/
 .mypy_cache/
 .ruff_cache/
