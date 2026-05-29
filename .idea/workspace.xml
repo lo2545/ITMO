@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c68bb4f-5fc6-4eca-b4b3-ec202ebaf00a" name="Changes" comment="-new">
-      <change afterPath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/.gitignore" afterDir="false" />
+    <list default="true" id="4c68bb4f-5fc6-4eca-b4b3-ec202ebaf00a" name="Changes" comment="-">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/README.md" afterDir="false" />
     </list>
@@ -111,11 +110,20 @@
       <option name="project" value="LOCAL" />
       <updated>1779821792030</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-">
+      <option name="closed" value="true" />
+      <created>1779824840085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779824840085</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-new" />
-    <option name="LAST_COMMIT_MESSAGE" value="-new" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>
