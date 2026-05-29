@@ -5,7 +5,7 @@
 **Вариант:** `forth | risc | harv | hw | tick | binary | trap | mem | pstr | prob2 | vector`
 
 git init
-git add .
+git add . 
 git commit -m "-"
 git branch -M main
 git remote add origin https://github.com/lo2545/ITMO.git
@@ -453,14 +453,12 @@ python machine.py <program.bin> [input.txt] [log.txt]
 
 ### DataPath
 
-![img.png](img.png)
+![img_4.png](img_4.png)
 
 
 ### ControlUnit
 
-![img_1.png](img_1.png)
-
-![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 
 ### Управляющие сигналы
 
