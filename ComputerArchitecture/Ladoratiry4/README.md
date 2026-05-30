@@ -441,12 +441,12 @@ python machine.py <program.bin> [input.txt] [log.txt]
 
 ### DataPath
 
-![img.png](img.png)
+![img.png](resourse/img.png)
 
 
 ### ControlUnit
 
-![img_1.png](img_1.png)
+![img_1.png](resourse/img_1.png)
 
 ### Управляющие сигналы
 
