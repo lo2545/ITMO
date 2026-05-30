@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c68bb4f-5fc6-4eca-b4b3-ec202ebaf00a" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/resourse/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/resourse/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/img_3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerArchitecture/Ladoratiry4/img_4.png" beforeDir="false" />
@@ -63,6 +64,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Strekoza\Documents\ITMO_3_sem\AK\ITMO\ComputerArchitecture\Schema" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Strekoza\Documents\ITMO_3_sem\AK\ITMO\ComputerArchitecture\Ladoratiry4\resourse" />
     </key>
   </component>
   <component name="SharedIndexes">
