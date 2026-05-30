@@ -4,18 +4,6 @@
 
 **Вариант:** `forth | risc | harv | hw | tick | binary | trap | mem | pstr | prob2 | vector`
 
-git init
-git add . 
-git commit -m "-"
-git branch -M main
-git remote add origin https://github.com/lo2545/ITMO.git
-git push origin main --force
-
-git filter-branch --force --index-filter "git rm -r --cached --ignore-unmatch .idea" --prune-empty --tag-name-filter cat -- --all
-git reflog expire --expire=now --all
-git reflog expire --expire=now --all
-git push origin main --force
-
 ---
 
 ## Язык программирования
@@ -453,12 +441,12 @@ python machine.py <program.bin> [input.txt] [log.txt]
 
 ### DataPath
 
-![img_4.png](img_4.png)
+![img.png](img.png)
 
 
 ### ControlUnit
 
-![img_3.png](img_3.png)
+![img_1.png](img_1.png)
 
 ### Управляющие сигналы
 
